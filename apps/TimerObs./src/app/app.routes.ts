@@ -19,4 +19,13 @@ export const appRoutes: Route[] = [
     loadComponent: () =>
       import('@timer-obs./timer').then((m) => m.TimerComponent),
   },
+
+  {
+    path: 'request-simulator',
+    loadComponent: () =>
+      import('@timer-obs./request-simulator').then((m) => m.RequestSimulatorComponent),
+  },
+  
+
 ];
+

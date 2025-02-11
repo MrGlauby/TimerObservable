@@ -1,7 +1,9 @@
 <div class="timer-container">
-    <h2>RxJS Timer</h2>
-    <p>Die aktuellen Timer-Werte:</p>
-    <ul>
-      <li>Hier kommen die WERTE</li>
-    </ul>
-  </div>
+  <h2>RxJS Timer</h2>
+  <p>Die aktuellen Timer-Werte:</p>
+  <ul>
+    <li *ngFor="let value of timerValue">{{ value }}</li>
+  </ul>
+
+  <button [routerLink]="'/request-simulator'">zur HTTP-Request simulieren mit of und delay</button>
+</div>

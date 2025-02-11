@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@timer-obs./request-simulator": ["libs/request-simulator/src/index.ts"],
       "@timer-obs./timer": ["libs/timerobservable/timer/src/index.ts"]
     }
   },
