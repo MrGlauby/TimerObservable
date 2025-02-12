@@ -1,0 +1,32 @@
+.wrapper {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.table-container {
+  width: 1200px;
+}
+
+.user-table th,
+.user-table td {
+  padding: 10px 20px;
+  border: 1px solid #414141;
+}
+
+.user-table th {
+  background-color: #d8d8d8c4;
+  font-weight: bold;
+}
+
+.user-table  {
+  background-color: #9f9f9f67;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
